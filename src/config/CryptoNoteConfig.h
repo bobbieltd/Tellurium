@@ -233,6 +233,8 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 };
 
 const char* const SEED_NODES[] = {
-  "0.0.0.0:32301", // LOCAL
+  "185.175.32.192:32301", // LOCAL
+  "185.175.33.194:32301", // LOCAL
+  "5.172.219.174:32301", // LOCAL
 };
 } // CryptoNote
