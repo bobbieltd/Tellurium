@@ -48,7 +48,7 @@ const uint64_t EMISSION_SPEED_FACTOR_V2_HEIGHT               = 50000; // nothing
 /* Premine amount */
 const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(500000000000000);
 
-/* How to generate a premine:
+/* How to generate a premine: 
 
 * Compile your code
 
