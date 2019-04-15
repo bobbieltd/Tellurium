@@ -1,7 +1,4 @@
-// Copyright (c) 2018, The TurtleCoin Developers
-// Copyright (c) 2018, The DeroGold Association
-// 
-// Please see the included LICENSE file for more information.
+
 
 #pragma once
 
@@ -75,3 +72,13 @@ namespace WalletConfig
        syncing, as most people don't have solo mined transactions */
     const bool processCoinbaseTransactions = true;
 }
+
+
+// Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
+// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2018-2019, The TurtleCoin Developers
+// Copyright (c) 2018-2019, The DeroGold Assosiation
+// Copyright (c) 2018-2019, The BitcoinMono Developers
+// Copyright (c) 2019-2019, The Tellurium Developers
+// Please see the included LICENSE file for more information
+
