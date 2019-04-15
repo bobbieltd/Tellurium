@@ -107,11 +107,11 @@ const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_NUMERATOR         = 100 * 1024;
 const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_DENOMINATOR       = 365 * 24 * 60 * 60 / DIFFICULTY_TARGET;
 const uint64_t MAX_EXTRA_SIZE                                = 140000;
 const uint64_t MAX_EXTRA_SIZE_V2                             = 1024;
-const uint64_t MAX_EXTRA_SIZE_V2_HEIGHT                      = 50000;
+const uint64_t MAX_EXTRA_SIZE_V2_HEIGHT                      = 0;
 
 /* For new projects forked from this code base, this value should be
    changed to 0 to prevent a possible transaction bloat exploit */
-const uint64_t TRANSACTION_SIGNATURE_COUNT_VALIDATION_HEIGHT = 50000;
+const uint64_t TRANSACTION_SIGNATURE_COUNT_VALIDATION_HEIGHT = 0;
 
 const uint64_t CRYPTONOTE_LOCKED_TX_ALLOWED_DELTA_BLOCKS     = 1;
 const uint64_t CRYPTONOTE_LOCKED_TX_ALLOWED_DELTA_SECONDS    = DIFFICULTY_TARGET * CRYPTONOTE_LOCKED_TX_ALLOWED_DELTA_BLOCKS;
