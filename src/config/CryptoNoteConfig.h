@@ -219,8 +219,8 @@ const uint64_t DATABASE_READ_BUFFER_MB_DEFAULT_SIZE          = 32;
 const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES               = 100;
 const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT     = 2;
 
-const char     LATEST_VERSION_URL[]                          = "https://github.com/tellurium/tellurium/releases";
-const std::string LICENSE_URL                                = "https://github.com/tellurium/tellurium/blob/master/LICENSE";
+const char     LATEST_VERSION_URL[]                          = "https://github.com/telluriumcoin/tellurium/releases";
+const std::string LICENSE_URL                                = "https://github.com/telluriumcoin/tellurium/blob/master/LICENSE";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
     {  0xa2, 0x1c, 0xda, 0x3c, 0x2f, 0x52, 0x51, 0x4a, 0x61, 0xfd, 0x9c, 0xb4, 0x36, 0xa1, 0x34, 0x3e  }
