@@ -2,7 +2,7 @@
 
 TELLURIUM
 
-The Tellurium asset is an easy to use, private and secure digital currency - powered and developed by its community. It’s a crypto currency con aiming to provide a platform on which a multitude of customized services can be deployed and utilized worldwide. 
+The Tellurium asset is an easy to use, private and secure digital currency coin- powered and developed by its community. It’s a cryptocurrency con aiming to provide a platform on which a multitude of customized services can be deployed and utilized worldwide. 
 
 Installing
 
