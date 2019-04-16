@@ -11,7 +11,7 @@
 namespace CryptoNote {
 namespace parameters {
 
-const uint64_t DIFFICULTY_TARGET                             = 50; // seconds
+const uint64_t DIFFICULTY_TARGET                             = 40; // seconds
 const uint64_t DIFFICULTY_TARGET_V2                          = DIFFICULTY_TARGET; // seconds
 
 /* Height to swap to DIFFICULTY_TARGET_V2 */
@@ -29,7 +29,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 11;
 // MONEY_SUPPLY - total number coins to be generated
 const uint64_t MONEY_SUPPLY                                  = UINT64_C(10000000000000000); // 1 trilion
 
-const uint32_t EMISSION_SPEED_FACTOR                         = 20;
+const uint32_t EMISSION_SPEED_FACTOR                         = 21;
 const uint32_t EMISSION_SPEED_FACTOR_V2                      = EMISSION_SPEED_FACTOR; // nothing change at 50k
 
 static_assert(EMISSION_SPEED_FACTOR    <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
@@ -223,22 +223,22 @@ const char     LATEST_VERSION_URL[]                          = "https://github.c
 const std::string LICENSE_URL                                = "https://github.com/telluriumcoin/tellurium/blob/master/LICENSE";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
-    {  0xa2, 0x1c, 0xda, 0x3c, 0x2f, 0x52, 0x51, 0x4a, 0x61, 0xfd, 0x9c, 0xb4, 0x36, 0xa1, 0x34, 0x3e  }
+    {  0xd2, 0x3c, 0xda, 0x3e, 0xaf, 0x52, 0x61, 0x4a, 0x31, 0xfe, 0x9c, 0xb4, 0x36, 0xc1, 0x33, 0xde  }
 };
 
 const char* const SEED_NODES[] = {
-  "5.172.219.174:32301", // Sniperviperman
-  "77.138.176.211:32301", // Emperor
+  "127.0.0.1:32301", // reset network
+
   
 
 };
-} // CryptoNote
+} // CryptoNote LICENSE 
 
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2018-2019, The TurtleCoin Developers
 // Copyright (c) 2018-2019, The DeroGold Assosiation
 // Copyright (c) 2018-2019, The BitcoinMono Developers
-// Copyright (c) 2019-2019, The Tellurium Developers
+// Copyright (c) 2019-2019, The Tellurium Community & Developers
 // Please see the included LICENSE file for more information.
 
