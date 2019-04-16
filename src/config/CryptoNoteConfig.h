@@ -29,7 +29,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 11;
 // MONEY_SUPPLY - total number coins to be generated
 const uint64_t MONEY_SUPPLY                                  = UINT64_C(10000000000000000); // 1 trilion
 
-const uint32_t EMISSION_SPEED_FACTOR                         = 21;
+const uint32_t EMISSION_SPEED_FACTOR                         = 20;
 const uint32_t EMISSION_SPEED_FACTOR_V2                      = EMISSION_SPEED_FACTOR; // nothing change at 50k
 
 static_assert(EMISSION_SPEED_FACTOR    <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
