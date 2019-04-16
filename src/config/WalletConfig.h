@@ -11,7 +11,7 @@ namespace WalletConfig
     const std::string_view addressPrefix = "TELM";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
-    const std::string ticker = "TELM";
+    const std::string ticker = "TLRM";
 
     /* The filename to output the CSV to in save_csv */
     const std::string csvFilename = "transactions.csv";
@@ -79,6 +79,6 @@ namespace WalletConfig
 // Copyright (c) 2018-2019, The TurtleCoin Developers
 // Copyright (c) 2018-2019, The DeroGold Assosiation
 // Copyright (c) 2018-2019, The BitcoinMono Developers
-// Copyright (c) 2019-2019, The Tellurium Developers
+// Copyright (c) 2019-2019, The Tellurium Community & Developers
 // Please see the included LICENSE file for more information
 
