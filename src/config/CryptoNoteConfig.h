@@ -86,7 +86,7 @@ const uint64_t MINIMUM_MIXIN_V0                              = 0;
 const uint64_t MAXIMUM_MIXIN_V0                              = 7;
 
 /* The mixin to use by default with zedwallet and turtle-service */
-const uint64_t DEFAULT_MIXIN_V0                              = 0; // temporary 0
+const uint64_t DEFAULT_MIXIN_V0                              = 3; // for privacy
 
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(0);
 
