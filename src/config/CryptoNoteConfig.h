@@ -229,7 +229,7 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 const char* const SEED_NODES[] = {
   "5.172.219.174:32301", // Sniperviperman
   "77.138.176.211:32301", // Tellurium1
-
+  "104.243.33.176:32301" // morph
 };
 } // CryptoNote LICENSE 
 
