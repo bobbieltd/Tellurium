@@ -1,5 +1,12 @@
 ![image](https://github.com/TelluriumCoin/Tellurium/blob/master/logo.png)
 
+
+LICENSES:
+
+Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers Copyright (c) 2014-2018, The Monero Project Copyright (c) 2018-2019, The TurtleCoin Developers Copyright (c) 2018-2019, The DeroGold Assosiation Copyright (c) 2018-2019, The BitcoinMono Developers Copyright (c) 2019-2019, The Tellurium Developers.
+
+Please see the included LICENSE file for more information.
+
 TELLURIUM
 
 The Tellurium asset is an easy to use, private and secure digital currency coin- powered and developed by its community. It’s a cryptocurrency con aiming to provide a platform on which a multitude of customized services can be deployed and utilized worldwide. 
